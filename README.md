@@ -7,7 +7,7 @@ React + Node app that creates a one-page signed PDF invoice. No auth, no databas
 - Enter customer details
 - Select products and quantities
 - Draw or upload a signature (stored in **localStorage**)
-- Generate a branded PDF from **Meridian Supply Co.**
+- Generate a branded PDF from **Vikas Pvt. Ltd.**
 
 ### Signature storage
 

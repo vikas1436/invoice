@@ -68,7 +68,7 @@ export default function App() {
       <div className="bg-wash" aria-hidden="true" />
 
       <header className="hero">
-        <p className="brand">Vikas Pvt. Ldt.</p>
+        <p className="brand">Vikas Pvt. Ltd.</p>
         <h1>Invoice Generator</h1>
         <p className="lede">
           Add a signature, enter the customer, pick products, and download a one-page PDF.
@@ -215,8 +215,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <span>Meridian Supply Co. · Demo invoice tool</span>
-        <span>No account · No database · Local browser storage</span>
+        <span>Vikas Pvt. Ltd. · Demo invoice tool</span>
       </footer>
     </div>
   );

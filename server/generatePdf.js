@@ -1,13 +1,13 @@
 const PDFDocument = require('pdfkit');
 
 const COMPANY = {
-  name: 'Meridian Supply Co.',
+  name: 'Vikas Pvt. Ltd.',
   tagline: 'Quality Goods · Trusted Trade',
   address: '1847 Harbor Avenue, Suite 200',
   city: 'Seattle, WA 98101',
   phone: '+1 (206) 555-0142',
-  email: 'billing@meridiansupply.example',
-  website: 'www.meridiansupply.example',
+  email: 'billing@vikaspvtldt.example',
+  website: 'www.vikaspvtldt.example',
 };
 
 function formatCurrency(amount) {

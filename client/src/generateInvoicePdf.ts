@@ -2,13 +2,12 @@ import { jsPDF } from 'jspdf';
 import type { CartItem, CustomerDetails } from './data';
 
 const COMPANY = {
-  name: 'Meridian Supply Co.',
-  tagline: 'Quality Goods · Trusted Trade',
-  address: '1847 Harbor Avenue, Suite 200',
-  city: 'Seattle, WA 98101',
+  name: 'Vikas Pvt. Ltd.',
+  tagline: 'Quality Goods · Trusted',
+  address: 'Chinhat, Lucknow 22602',
   phone: '+1 (206) 555-0142',
-  email: 'billing@meridiansupply.example',
-  website: 'www.meridiansupply.example',
+  email: 'billing@vikas.example',
+  website: 'www.vikas.example',
 };
 
 function rs(amount: number) {
@@ -59,7 +58,6 @@ export function downloadInvoicePdf(payload: InvoicePayload) {
   doc.setTextColor(61, 79, 71);
   doc.setFontSize(8.5);
   doc.text(COMPANY.address, left, 68);
-  doc.text(COMPANY.city, left, 80);
   doc.text(`${COMPANY.phone}  ·  ${COMPANY.email}`, left, 92);
 
   // Invoice header (right)

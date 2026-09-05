@@ -68,7 +68,7 @@ export default function App() {
       <div className="bg-wash" aria-hidden="true" />
 
       <header className="hero">
-        <p className="brand">Meridian Supply Co.</p>
+        <p className="brand">Vikas Pvt. Ldt.</p>
         <h1>Invoice Generator</h1>
         <p className="lede">
           Add a signature, enter the customer, pick products, and download a one-page PDF.

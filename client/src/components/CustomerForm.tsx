@@ -20,7 +20,7 @@ export default function CustomerForm({ value, onChange }: CustomerFormProps) {
 
       <div className="form-grid">
         <label className="field">
-          <span>Full name *</span>
+          <span>Full name</span>
           <input
             type="text"
             value={value.name}

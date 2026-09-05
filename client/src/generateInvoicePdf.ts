@@ -5,7 +5,7 @@ const COMPANY = {
   name: 'Vikas Pvt. Ltd.',
   tagline: 'Quality Goods · Trusted',
   address: 'Chinhat, Lucknow 22602',
-  phone: '+1 (206) 555-0142',
+  phone: '+91 9988776655',
   email: 'billing@vikas.example',
   website: 'www.vikas.example',
 };
